@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{F47B568B-13F4-418E-8846-6D2FC5FD8EC0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.4</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\color\color-1.css" />
+    <Content Include="css\color\color-2.css" />
+    <Content Include="css\color\color-3.css" />
+    <Content Include="css\color\color-4.css" />
+    <Content Include="css\color\color-5.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont862f.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\82743738.jpg" />
+    <Content Include="images\apple-touch-icon-114x114.png" />
+    <Content Include="images\apple-touch-icon-72x72.png" />
+    <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\blog-1.jpg" />
+    <Content Include="images\blog-2.jpg" />
+    <Content Include="images\blog-3.jpg" />
+    <Content Include="images\cd-icon-controller.svg" />
+    <Content Include="images\client1.png" />
+    <Content Include="images\client2.png" />
+    <Content Include="images\client3.png" />
+    <Content Include="images\client4.png" />
+    <Content Include="images\favicon.html" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_small.png" />
+    <Content Include="images\photo-1416339134316-0e91dc9ded92.jpg" />
+    <Content Include="images\photo-1416838375725-e834a83f62b7.jpg" />
+    <Content Include="images\photo-1422479516648-9b1f0b6e8da8.jpg" />
+    <Content Include="images\slider1.jpg" />
+    <Content Include="images\slider2.jpg" />
+    <Content Include="images\slider3.jpg" />
+    <Content Include="images\team-1.jpg" />
+    <Content Include="images\team-2.jpg" />
+    <Content Include="images\team-3.jpg" />
+    <Content Include="images\team-4.jpg" />
+    <Content Include="images\testimonial-1.jpg" />
+    <Content Include="images\testimonial-2.jpg" />
+    <Content Include="images\testimonial-3.jpg" />
+    <Content Include="images\testimonial-4.jpg" />
+    <Content Include="images\testimonial-5.jpg" />
+    <Content Include="images\testimonial-6.jpg" />
+    <Content Include="images\thumb-style-1.jpg" />
+    <Content Include="images\thumb-style-2.jpg" />
+    <Content Include="images\work-1.jpg" />
+    <Content Include="images\work-2.jpg" />
+    <Content Include="images\work-3.jpg" />
+    <Content Include="images\work-4.jpg" />
+    <Content Include="images\work-5.jpg" />
+    <Content Include="images\work-6.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.knob.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\modernizr.min.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\waypoints.min.js" />
+    <Content Include="single-blog-5.html" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont862f.eot" />
+    <Content Include="fonts\fontawesome-webfont862f.ttf" />
+    <Content Include="fonts\fontawesome-webfont862f.woff" />
+    <Content Include="fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\fonts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>tagit</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10744</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10744/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
